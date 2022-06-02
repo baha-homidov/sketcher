@@ -23,15 +23,24 @@ button {
     border: 0px;
 }
 
+button:active {
+    background-color: #647489;
+    box-shadow: 0 3px #666;
+    transform: translateY(3px);
+}
+
+button:hover {
+    color: white;
+}
+
 
 .canvas {
     display: flex;
     flex-direction: column;
-    justify-content:last baseline;
+    justify-content: last baseline;
     border: 5px solid #9B5DE5;
     width: 600px;
     height: 600px;
     border-radius: 10px;
 
 }
-
