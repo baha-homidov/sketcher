@@ -6,7 +6,15 @@ body {
 
 
 .canvas {
+    display: flex;
+    flex-direction: column;
+    justify-content:last baseline;
     border: 1px solid red;
     width: 480px;
     height: 480px;
+    
+}
+
+.pixel {
+    border: 1px solid blue;
 }
