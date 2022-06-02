@@ -36,11 +36,12 @@ clearBtn.addEventListener("click", () => {
 });
 
 setGridBtn.addEventListener("click", () => {
-    let size = -1;
-    while (size < 1 || size > 100) {
-        size = prompt("Please enter the grid size (1-100)");
-        console.log(size);
+    let newGridSize = -1;
+    while (newGridSize < 1 || newGridSize > 100) {
+        newGridSize = prompt("Please enter the grid size (1-100)");
+
     }
-    createCanvas(size);
+    canvasSize = newGridSize;
+    createCanvas(canvasSize);
 })
 
